@@ -3,7 +3,7 @@ import React from 'react';
 const Card = ({name, title, content, isLast, img }) => {
   return (
     <div
-      className={`relative w-64 m-2 flex flex-col justify-between mt-5 p-5 right-[-50px] bg-white shadow-lg rounded-lg transition-transform ${
+      className={`relative w-52 m-2 flex flex-col justify-between mt-5 p-5 right-[-50px] bg-white shadow-lg rounded-lg transition-transform ${
         isLast ? 'fixed right-[-50px] transform' : ''
       }`}
     >
